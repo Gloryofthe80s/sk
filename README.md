@@ -1,34 +1,17 @@
-# Skel
+# Sk
 
-Skel is a lightweight framework for building responsive sites and web apps.
+Sk is _the lightest weight_ framework in the world for building responsive sites and web apps.
 
-- Minified production versions: [`dist/`](dist/)
-- Documentation: [Skel](docs/skel.md), [Layout](docs/skel-layout.md), [Viewport](docs/skel-viewport.md), and [Skel.scss](docs/skel.scss.md)
-- Unminified sources: [`src/`](src/)
-- Baseline, a simple boilerplate built on Skel + Skel.scss: [github.com/ajlkn/baseline](http://github.com/ajlkn/baseline)
+Based off of [Skel](https://github.com/ajlkn/skel), which is bloated af. 
 
-_(Looking for the previous version of Skel? Go here: [github.com/ajlkn/skel.old](http://github.com/ajlkn/skel.old))_
+**Sk: Only What You Need, None Of What You Don't™**
 
+- Minified production version: [`dist/sk.min.css`](dist/sk.min.css)
+- Development (unminified) version: [`dist/sk.css`](dist/sk.css)
 
 ## Modules
 
-Previous versions of Skel were basically monolithic (ie. `skel.min.js` contained **all** of Skel's functionality, even if you didn't need all of it). As of version 3, Skel uses a modular approach to give you more flexibility in how you use it. Here's how it (currently) breaks down:
-
-- **Skel** (`skel.min.js`)
-
-	_(Main framework)_ Provides JS access to CSS breakpoints, events, and other tools.
-
-- **Layout** (`skel-layout.min.js`)
-
-	_(Module)_ Adds CSS and page layout tools, including a CSS grid system, browser resets and more.
-
-- **Viewport** (`skel-viewport.min.js`)
-
-	_(Module)_ Adds simplified viewport management (including support for multiple viewport `<meta>` tags).
-
-- **Skel.scss** (`_skel.scss`)
-
-	_(Sass framework)_ A Sass-based implementation of Skel. Merges certain aspects of Skel and its Layout module (while adding some handy new mixins). Designed to work independently **or** in conjunction with Skel for added effect.
+Why would you want modules? Modules are a code smell. Bloat.
 
 
 ## Credits
@@ -43,9 +26,7 @@ Previous versions of Skel were basically monolithic (ie. `skel.min.js` contained
 
 ## License
 
-Skel, Layout, Viewport, and Skel.scss are released under the MIT license.
-
-Copyright (c) skel.io
+Sk is released under the MIT license.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
